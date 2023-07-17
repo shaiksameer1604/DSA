@@ -1,0 +1,30 @@
+In a binary search tree (BST), there are three main types of tree traversals: inorder traversal, preorder traversal, and postorder traversal.
+ Each type visits the nodes of the tree in a different order.
+
+ 
+1. Inorder Traversal:
+In an inorder traversal, the nodes are visited in ascending order. For a BST, this means visiting the left subtree first, then the current node, and finally the right subtree.
+
+Example:
+Suppose we have the following BST:
+
+       5
+     /   \
+    3     8
+   / \   / \
+  2   4 7   9
+
+The inorder traversal of this BST will be: 2, 3, 4, 5, 7, 8, 9.
+
+2. Preorder Traversal:
+In a preorder traversal, the nodes are visited in a pre-order manner. This means visiting the current node first, then the left subtree, and finally the right subtree.
+
+Example:
+Using the same BST as above, the preorder traversal will be: 5, 3, 2, 4, 8, 7, 9.
+
+3. Postorder Traversal:
+In a postorder traversal, the nodes are visited in a post-order manner. This means visiting the left subtree first, then the right subtree, and finally the current node.
+
+Example:
+Using the same BST as above, the postorder traversal will be: 2, 4, 3, 7, 9, 8, 5.
+
